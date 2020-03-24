@@ -15,10 +15,141 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
 				<section>
-					<section>Slide 2</section>
-					<section>Slide 2 - Basement</section>
+				<h2>Infrastructure as Code</h2>
+					<p>
+						<div>using</div>
+						<img data-src="img/tflogo.png">
+					</p>				
+				</section>
+				<section>
+					<h2>Agenda</h2>
+					<ul>
+						<li>IaC overview</li>
+						<li>Terraform basics</li>
+						<li>Provisioning demo on Azure and AWS</li>
+						<li>Case studies</li>
+						<li>Next steps</li>
+					</ul>
+				</section>
+				<section>
+					<section>
+						<h2>What is IaC?</h2>
+						<p>
+							Infrastructure as Code (IaC) is a method to provision and manage IT infrastructure using source code, rather than through standard operating procedures and manual processes.
+						</p>
+						<p>
+							Infrastructure as code is an approach to managing IT infrastructure for the age of cloud, microservices and continuous delivery.
+						</p>
+					</section>
+					<section>
+						<h2>Why IaC?</h2>
+						<ul>
+							<li class="fragment">Taking the CICD journey to next level</li>
+							<li class="fragment">help avoid cloud deployment inconsistencies</li>
+							<li class="fragment">Increase developer productivity, and lower costs.</li>
+						</ul>
+					</section>
+					<section>
+						<h2>How?</h2>
+						<ul>
+							<li>ARM Templates</li>
+							<li>AWS CloudFormation</li>
+							<li>AliCloud....etc.</li>
+							<li>Terraform</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>What is Terraform?</h2>
+						<ul>
+							<li class="fragment">Terraform is the first multi-cloud immutable infrastructure tool that was introduced to the world by HashiCorp, released three years ago, and written in Go.</li>
+							<li class="fragment">Json like, but human friendly</li>
+							<li class="fragment">Imperative vs Declarative programming</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Why Terraform?</h2>
+						<ul>
+							<li class="fragment"></li>
+							<li class="fragment"></li>
+							<li class="fragment"></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Terraform Basics</h2>
+						<ul>
+							<img data-src="img/tfbasics.png">
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>Scenario: Deploy a SQL database and webapp.</section>
+					<section>Demo for Azure</section>
+					<section>Demo for AWS</section>
+					<section>Why not to do this. (Terralith)</section>
+					<ul>
+							<li class="fragment"><img data-src="img/terralith_1.png"></li>
+							<li class="fragment"><img data-src="img/terralith_2.png"></li>
+							<li class="fragment"><img data-src="img/terralith_3.png"></li>
+							<li class="fragment">Never take a POC setup and evolve it into production setup without necessarily thinking about splitting things up.</li>
+
+						</ul>					
+				</section>
+				<section>
+					<section>
+						<h2>Terraform Key Concepts</h2>
+						<ul>
+							<li class="fragment">Secret Management</li>
+							<li class="fragment">State Management</li>
+							<li class="fragment">more from wiki</li>
+						</ul>
+					</section>
+					<section>Pic for better file structure</section>
+					<section>
+						Something better (Multi-Terralith)
+						<img data-src="img/multi_terralith_1.png">
+					</section>
+					<section>
+						<ul>
+							<li class="fragment">TerraMod</li>
+							<li class="fragment">Terraservices</li>
+							<li><img data-src="img/terraservices_1.png"></li>
+						</ul>
+					</section>
+				</section>
+				<section>
+						<h1>The Pain</h1>
+						schibsted.pl/blog/9-reasons-why-terraform-is-a-pain-and-1-why-you-should-still-care/
+				</section>
+				<section>
+						<h1>What next?</h1>
+						<ul>
+							<li>Linting: Terraform validate</li>
+							<li>Terratest</li>
+							<li>How it works in with configuration management tools</li>
+							<li>OnPremise provisioning using Terraform</li>
+							<li>Build a CICD pipeline</li>
+						</ul>
+				</section>
+				<section>
+					<section>
+						<h1>Recap</h1>
+						<p>
+							There is no right or wrong way of doing things.
+							Highlighting key pointers that help make better decisions based on your scenarios.
+						</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<img data-src="img/thanks.png">
+						<p>
+							Thanks,
+							Ankit
+						</p>
+					</section>
 				</section>
 			</div>
 		</div>
@@ -37,7 +168,7 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/highlight/highlight.js' },
 					{ src: 'plugin/search/search.js', async: true },
-					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true }
 				]
 			});
 		</script>
