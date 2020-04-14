@@ -1,0 +1,36 @@
+24th Mar, 2020
+
+Greetings everyone !!
+For those who don't know me, myself Ankit Arora. I completed 4 years with myProjects them this March. I have worked on various modules and teams namely(Team Core, EPS, Yellow, Blue and now part of Team Orion) 
+So lets begin our session.
+	In recent years, Trends like cloud computing revolutionized—and improved—the way organizations design and develop their applications.
+	One critical component in that trend is “infrastructure as code”, and that is what we are gonna talk about today.
+Starting with the agenda. 
+
+#Since we have 50 of us in this teams session, In the interest of time we can keep all questions to the end.
+
+1--------------------------------------------------
+This talk is not about benefits of backbone OR why should we adopt...............Its about Lets make peace with it. We already have it now lets adopt it the best we can.
+
+2018 our goal was to do anything needs to be done accomplish nightly release cycle. Remove:
+	- Anything impacting PROD quality.
+	- Anything impacting resource productivity.
+
+Increasing awareness about what is in the application and how to use it better.
+		
+2-------------------------------------------------------
+
+9-------------------------------------------------------
+RECAP
+Principle 1: Easy Reproducibility of the Systems: IaC should allow you to painlessly recreate any given chunk of an infrastructure. IaC instills confidence when it comes to provisioning new services and environments.
+Principle 2: High Level of Flexibility: IaC should present itself as flexible blocks that can be assembled instantly if and when the requirements arise.
+Principle 3: Dynamic Design: While it’s always a good bet that some component or another will need a change in the form of an upgrade. We can’t predict how, over time, the requirement of a system can change. That’s why one of the core principles of IaC is that the design is always changing.
+ 
+10-------------------------------------------------------
+On closing note just want to say that:
+Javascript the good parts
+
+Jasmine/Mocha are in our projects. Start writing frontend unit test cases and accounting for them in your estimates.
+Yes they are yet to be integrated with CICD, but one day we will be there.
+
+
